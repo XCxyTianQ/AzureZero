@@ -49,6 +49,6 @@ test-plugin.settings.gradle.kts
 paper-generator.settings.gradle.kts
 azurezero-generator.settings.gradle.kts
 
-# Don't track generated source (rebuilt from patches)
-paper-server/src/
-paper-api/src/
+# Don't track patched vanilla submodules
+paper-server/src/minecraft/
+paper-api/src/minecraft/
